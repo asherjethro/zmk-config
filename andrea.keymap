@@ -20,11 +20,11 @@
 //   | CTRL  |         ALT   |  LT(SPACE, 1) | BSPC  |   LT(SPACE,1) | ALT   |                                 LEFT  | DOWN  | RIGHT |
 
 			bindings = <
-    &kp ESC          &kp NUM_1        &kp NUM_2     &kp NUM_3     &kp NUM_4     &kp NUM_5        &kp NUM_6        &kp NUM_7        &kp NUM_8        &kp NUM_9        &kp NUM_0        &kp MINUS        &kp EQL          &kp TILDE         &kp BSLH         &kp PSCRN
+    &kp ESC          &kp NUM_1        &kp NUM_2     &kp NUM_3     &kp NUM_4     &kp NUM_5        &kp NUM_6        &kp NUM_7        &kp NUM_8        &kp NUM_9        &kp NUM_0        &kp MINUS        &kp EQL          &kp PSCRN         &kp BSLH         &kp PSCRN
     &kp TAB          &kp Q            &kp W         &kp E         &kp R         &kp T            &kp Y            &kp U            &kp I            &kp O            &kp P            &kp LBKT         &kp RBKT         &kp BSPC                         &kp PG_UP
-    &mt LCTRL CAPS   &kp A            &kp S         &kp D         &kp F         &kp G            &kp H            &kp J            &kp K            &kp L            &kp SCLN         &kp QUOT                          &kp ENTER                        &kp PG_DN
+    &mt CAPS         &kp A            &kp S         &kp D         &kp F         &kp G            &kp H            &kp J            &kp K            &kp L            &kp SCLN         &kp QUOT                          &kp ENTER                        &kp PG_DN
     &kp LSHFT        &kp Z            &kp X         &kp C         &kp V         &kp B            &kp B            &kp N            &kp M            &kp CMMA         &kp DOT          &kp FSLH         &kp RSHFT                         &kp UP
-    &kp LCTRL                         &kp LALT                    &lt FN SPACE  &kp BSPC         &lt FN SPACE     &kp RALT                                                                                              &kp LEFT         &kp DOWN        &kp RIGHT
+    &kp LCTRL                         &kp LALT                    &kp SPACE      &lt FN BSPC     &kp SPACE     &kp RALT                                                                                              &kp LEFT         &kp DOWN        &kp RIGHT
 			>;
 			
 			sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
@@ -33,7 +33,7 @@
 
 		fn_layer {
 // -----------------------------------------------------------------------------------------
-//   | GRAVE | F1    | F2    | F3    | F4    | F5    | F6    | F7    | F8    | F9    | F10   | F11   | F12   | RESET  | TRANS | MUTE  |
+//   | GRAVE | F1    | F2    | F3    | F4    | F5    | F6    | F7    | F8    | F9    | F10   | F11   | F12   | RESET  | TRANS | MUTE  | 
 //   | TRANS |RGB_TOG| TRANS |RGB_HUI|RGB_HUD| TRANS | PSCR  | SCLK  | PAUSE | TRANS | TRANS | TRANS | TRANS | RESET  |         NEXT T|
 // |MT(SPACE)|RGB_EFF|RGB_EFR|RGB_SAI|RGB_SAD| TRANS | INS   | HOME  | PG_UP | TRANS | TRANS | TRANS |         TRANS  |         PREV T|
 //   | SHIFT | TRANS | TRANS |RGB_BRI|RGB_BRD| TRANS | TRANS | DEL   | END   | PG_DN | TRANS | TRANS | TRANS |          PG_UP |
